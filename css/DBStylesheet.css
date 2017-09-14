@@ -1,0 +1,565 @@
+A:link
+{ 
+   text-decoration: none; 
+   /*color: #0075BF;*/
+   color: #000000; 
+} 
+
+A:active
+{ 
+   text-decoration: none; 
+   /*color: #0075BF;*/
+   color: #000000; 
+} 
+
+A:visited
+{ 
+   text-decoration: none; 
+   /*color: #0075BF;*/
+   color: #000000;
+} 
+
+A:hover					
+{ 
+   text-decoration: underline; 
+   /*color: #000000;*/
+   color: #0075BF;
+}
+
+BODY 
+{
+   BACKGROUND: URL('http://www.cwmedia.com.au/database/bluelight/images/background.gif');
+   BACKGROUND-REPEAT: REPEAT-X;
+   /*BACKGROUND-COLOR: #D9D9D9;*/
+   BACKGROUND-COLOR: #FFFFFF;
+   MARGIN-LEFT: 0px;
+   MARGIN-TOP: 0px
+}
+
+
+.MainTable 
+{
+   WIDTH: 750px;
+   BACKGROUND-COLOR: #EEEEEE;   
+}
+
+.BannerBG { 
+   BACKGROUND-COLOR: #D9D9D9 
+}
+
+.MenuBG { BACKGROUND-COLOR: #00428C }
+
+.StripBG 
+{ 
+   BACKGROUND-COLOR: #5C9AD2;
+   HEIGHT: 21px;
+}
+
+.StripBG1 
+{ 
+   BACKGROUND-COLOR: #16918E;
+   HEIGHT: 21px;
+}
+
+.StripBG2 
+{ 
+   BACKGROUND-COLOR: #D2882C;
+   HEIGHT: 21px;
+}
+
+.StripBG3 
+{ 
+   BACKGROUND-COLOR: #CA3232;
+   HEIGHT: 21px;
+}
+
+.StripBG4 
+{ 
+   BACKGROUND-COLOR: #F7EA33;
+   HEIGHT: 21px;
+}
+
+.StripBG5 
+{ 
+   BACKGROUND-COLOR: #4E4995;
+   HEIGHT: 21px;
+}
+
+.SideBG
+{ 
+   BACKGROUND-COLOR: #EEEEEE;
+   WIDTH: 250px;
+}
+
+.SideBG7
+{ 
+   BACKGROUND-COLOR: #D9D9D9;
+   WIDTH: 200px;
+}
+
+.SideBG8
+{ 
+   BACKGROUND-COLOR: #3F4096;
+   WIDTH: 200px;
+}
+
+
+.FooterBG { BACKGROUND-COLOR: #105EAD }
+
+
+/* Text *******************************************************************************************/
+
+.contentText
+{ 
+   font-family: Verdana, Arial, Helvetica, sans-serif;  
+   font-size: 10px; 
+   font-weight: normal; 
+   font-style: normal; 
+   text-decoration : none; 
+   color : #0075BF; 
+   margin-bottom: 0 
+}
+
+
+.footerText
+{ 
+   font-family: Verdana, Arial, Helvetica, sans-serif;  
+   font-size: 9px; 
+   font-weight: normal; 
+   font-style: normal; 
+   text-decoration : none; 
+   color : #0075BF; 
+   margin-bottom: 0 
+}
+
+a.footerText
+{ 
+   text-decoration: none; 
+   color: #0075BF; 
+} 
+
+a.footerText:hover				
+{ 
+   text-decoration: none; 
+   color: #639DD4; 
+}
+
+/*************************************************************************************************/
+/*** Form ***/
+.FormTxtField
+{
+   font-family: Verdana, Arial, Helvetica, sans-serif;  
+   font-size: 10px; 
+   font-weight: normal; 
+   font-style: normal; 
+   text-decoration : none; 
+   color :#6286C4;
+   border: 1px #6286C4 solid
+}
+
+.PullDownMenu 
+{ 
+   font-family: Verdana, Arial, Helvetica, sans-serif;  
+   font-size: 10px; 
+   font-style: normal; 
+   font-weight: normal; 
+   color :#6286C4;
+   background-color: #FFFFFF; 
+   border: 1px #6286C4 solid
+}
+
+a.leftnav {
+	font-family: "Courier New", Courier, mono;
+	font-size: 14px;
+	color: #0075BF;
+	background-color: #D9D9D9;
+	display: block;
+	padding: 2px 2px 2px 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #666666;
+	height: 25px;
+	width: 193px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.leftnav:hover {
+	font-family: "Courier New", Courier, mono;
+	font-size: 14px;
+	color: #FFFFFF;
+	background-color: #999999;
+	display: block;
+	padding: 2px 2px 2px 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #666666;
+	height: 25px;
+	width: 193px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.selectedTab {
+	font-family: "Courier New", Courier, mono;
+	font-size: 14px;
+	color: #FFFFFF;
+	background-color: #999999;
+	display: block;
+	padding: 2px 2px 2px 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #666666;
+	height: 25px;
+	width: 193px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+#listTableHeader {
+	font-family: "Courier New", Courier, mono;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #5C9AD2;
+	font-weight: bold;
+	background-position: center;
+}
+
+#listTableText
+{ 
+   font-family: Verdana, Arial, Helvetica, sans-serif;  
+   font-size: 10px; 
+   font-weight: normal; 
+   font-style: normal; 
+   text-decoration : none; 
+   color : #0075BF;
+   background-color: #FFFFFF;
+   margin-bottom: 0 
+}
+
+.formTitle {
+	font-family: "Courier New", Courier, mono;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.selectedItem
+{ 
+   font-family: "Arial", Helvetica, sans-serif;  
+   font-size: 11px; 
+   font-weight: bold; 
+   font-style: italic; 
+   text-decoration : none; 
+   color : #0075BF; 
+   margin-bottom: 0 
+}
+
+/*************************************************************************************************/
+/* ----------- Ajax ----------- */
+div#container 
+{
+   border:0px solid #99b3b4;
+   padding:5px;
+   margin:auto;
+   width:510px;
+}
+
+#log_res 
+{
+   height:auto;
+   padding:15px;
+   margin:20px auto 20px auto;
+   width:760px;
+}
+
+#log_res p 
+{
+   margin:0;
+   padding:4px 0 4px 0;
+}
+
+#log_res.ajax-loading { 
+   background: url(http://www.esquizito.com.au/php/members/library/css/spinner.gif) no-repeat center; 
+}
+
+.error 
+{
+   color:red;
+   margin:0;
+   padding:0;
+}
+/* ---------------------------- */
+/* ----------- Form ----------- */
+.input 
+{
+   border: 1px solid #99b3b4;
+   width: 250px;
+   background: #e4ebeb;
+   font: 11px arial, sans-serif;
+   color:#443;
+   padding:3px;
+   margin-bottom:4px;
+   outline:none;
+}
+
+.inputSelection 
+{
+   border: 1px solid #99b3b4;
+   width: 150px;
+   background: #e4ebeb;
+   font: 11px arial, sans-serif;
+   color:#443;
+   padding:3px;
+   margin-bottom:4px;
+   outline:none;
+}
+
+.inputTextArea
+{
+   border: 1px solid #99b3b4;
+   width: 250px;
+   height: 100px;
+   background: #e4ebeb;
+   font: 11px arial, sans-serif;
+   color:#443;
+   padding:3px;
+   margin-bottom:4px;
+   outline:none;
+}
+
+.inputTextfield1
+{
+   border: 1px solid #99b3b4;
+   width: 50px;
+   background: #e4ebeb;
+   font: 11px verdana, sans-serif;
+   color:#443;
+   padding:3px;
+   margin-bottom:4px;
+   outline:none;
+}
+
+.inputTextfield2
+{
+   border: 1px solid #99b3b4;
+   width: 100px;
+   background: #e4ebeb;
+   font: 11px verdana, sans-serif;
+   color:#443;
+   padding:3px;
+   margin-bottom:4px;
+   outline:none;
+}
+
+.input:focus 
+{
+   border:1px solid #567475;
+   background: #e4ebeb;
+}
+/* ---------------------------- */
+/* ---------- Button ---------- */
+.submit-btn 
+{
+   width: 54px;
+   height: 20px;
+   background: #743 url('http://www.cwmedia.com.au/database/bluelight/images/button/submit.gif') no-repeat;
+   outline: none;
+}
+
+.submit-btn:hover {
+   background: #069 url('http://www.cwmedia.com.au/database/bluelight/images/button/submit.gif') no-repeat 0 -20px;
+}
+
+.login-btn 
+{
+   width: 54px;
+   height: 20px;
+   background: #743 url('http://www.cwmedia.com.au/database/bluelight/images/button/login.gif') no-repeat;
+   outline: none;
+}
+
+.login-btn:hover {
+   background: #069 url('http://www.cwmedia.com.au/database/bluelight/images/button/login.gif') no-repeat 0 -20px;
+}
+
+.logout-btn 
+{
+   width: 54px;
+   height: 20px;
+   background: #743 url('http://www.cwmedia.com.au/database/bluelight/images/button/logout.gif') no-repeat;
+   outline: none;
+}
+
+.logout-btn:hover {
+   background: #069 url('http://www.cwmedia.com.au/database/bluelight/images/button/logout.gif') no-repeat 0 -20px;
+}
+
+.back-btn 
+{
+   width: 54px;
+   height: 20px;
+   background: #743 url('http://www.cwmedia.com.au/database/bluelight/images/button/back.gif') no-repeat;
+   outline: none;
+}
+
+.back-btn:hover {
+   background: #069 url('http://www.cwmedia.com.au/database/bluelight/images/button/back.gif') no-repeat 0 -20px;
+}
+
+.search-btn 
+{
+   width: 54px;
+   height: 20px;
+   background: #743 url('http://www.cwmedia.com.au/database/bluelight/images/button/search.gif') no-repeat;
+   outline: none;
+}
+
+.search-btn:hover {
+   background: #069 url('http://www.cwmedia.com.au/database/bluelight/images/button/search.gif') no-repeat 0 -20px;
+}
+
+.add-btn 
+{
+   width: 54px;
+   height: 20px;
+   background: #743 url('http://www.cwmedia.com.au/database/bluelight/images/button/add.gif') no-repeat;
+   outline: none;
+}
+
+.add-btn:hover {
+   background: #069 url('http://www.cwmedia.com.au/database/bluelight/images/button/add.gif') no-repeat 0 -20px;
+}
+
+.update-btn 
+{
+   width: 54px;
+   height: 20px;
+   background: #743 url('http://www.cwmedia.com.au/database/bluelight/images/button/update.gif') no-repeat;
+   outline: none;
+}
+
+.update-btn:hover {
+   background: #069 url('http://www.cwmedia.com.au/database/bluelight/images/button/update.gif') no-repeat 0 -20px;
+}
+
+.delete-btn 
+{
+   width: 54px;
+   height: 20px;
+   background: #743 url('http://www.cwmedia.com.au/database/bluelight/images/button/delete.gif') no-repeat;
+   outline: none;
+}
+
+.delete-btn:hover {
+   background: #069 url('http://www.cwmedia.com.au/database/bluelight/images/button/delete.gif') no-repeat 0 -20px;
+}
+
+.activate-btn 
+{
+   width: 54px;
+   height: 20px;
+   background: #743 url('http://www.cwmedia.com.au/database/bluelight/images/button/activate.gif') no-repeat;
+   outline: none;
+}
+
+.activate-btn:hover {
+   background: #069 url('http://www.cwmedia.com.au/database/bluelight/images/button/activate.gif') no-repeat 0 -20px;
+}
+
+.history-btn 
+{
+   width: 54px;
+   height: 20px;
+   background: #743 url('http://www.cwmedia.com.au/database/bluelight/images/button/history.gif') no-repeat;
+   outline: none;
+}
+
+.history-btn:hover {
+   background: #069 url('http://www.cwmedia.com.au/database/bluelight/images/button/history.gif') no-repeat 0 -20px;
+}
+
+.yes-btn 
+{
+   width: 54px;
+   height: 20px;
+   background: #743 url('http://www.cwmedia.com.au/database/bluelight/images/button/yes.gif') no-repeat;
+   outline: none;
+}
+
+.yes-btn:hover {
+   background: #069 url('http://www.cwmedia.com.au/database/bluelight/images/button/yes.gif') no-repeat 0 -20px;
+}
+
+.export-btn 
+{
+   width: 54px;
+   height: 20px;
+   background: #743 url('http://www.cwmedia.com.au/database/aies/images/button/export.gif') no-repeat;
+   outline: none;
+}
+
+.export-btn:hover {
+   background: #069 url('http://www.cwmedia.com.au/database/aies/images/button/export.gif') no-repeat 0 -20px;
+}
+/* ---------------------------- */
+/* ----------- Text ----------- */
+.subTitleText 
+{
+   font-size: 15px;
+   color: rgb(58, 160, 10);
+   font-weight: bold;
+}
+
+.titleText 
+{
+   font-size: 11px;
+   color: rgb(0, 117, 191);
+   font-weight: bold;
+}
+
+.blackText 
+{  
+   font-family: Verdana, Arial, Helvetica, sans-serif; 
+   font-size: 10px; 
+   color: #666666; 
+   text-decoration: none
+}
+
+.noteText 
+{  
+   font-family: Verdana, Arial, Helvetica, sans-serif; 
+   font-size: 9px; 
+   color: #666666; 
+   text-decoration: none
+}
+
+.copyrightText
+{  
+   font-family: Verdana, Arial, Helvetica, sans-serif; 
+   font-size: 10px; 
+   color: #333333; 
+   text-decoration: none
+}
+
+.errorMessage
+{  
+   font-family: Verdana, Arial, Helvetica, sans-serif; 
+   font-size: 10px; 
+   color: #990000;
+   font-weight: bold;
+   text-decoration: none
+}
+
+.subText
+{ 
+   font-family: "Arial", Verdana, Helvetica, sans-serif;  
+   font-size: 9px; 
+   font-weight: normal; 
+   font-style: normal; 
+   text-decoration : none; 
+   color : #0075BF; 
+   margin-bottom: 0 
+}
+
+/* ---------------------------- */
