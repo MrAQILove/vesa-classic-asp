@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>VESA Members Database : Contact Us</title>
+<meta name="keywords" content="" />
+<meta name="VESA Members Database" content="" />
+<link href="css/default.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="javascript/resetButton.js"></script>
+</head>
+<body>
+<div id="wrapper">
+	<% If Session("UserLoggedIn") <> "true" Then %>
+		<div id="menu">
+			<ul id="main">
+				<li><a href="AdminLogin.asp">Home</a></li>
+				<li><a href="VESAUnitLogin.asp">Unit Login</a></li>
+				<li><a href="http://www.vesa.com.au/">VESA Website</a></li>
+				<li><a href="http://www.cwaustral.com.au/">Countrywide Austral</a></li>
+				<li class="current_page_item"><a href="contactUs.html">Contact Us</a></li>
+			</ul>
+		</div>
+
+	<% Else %>
+		<div id="menu">
+			<ul id="main">
+				<li><a href="VESAMain.asp">Home</a></li>
+				<li><a href="http://www.vesa.com.au/">VESA Website</a></li>
+				<li><a href="http://www.cwaustral.com.au/">Countrywide Austral</a></li>
+				<li class="current_page_item"><a href="contactUs.html">Contact Us</a></li>
+			</ul>
+		</div>
+	<% End If %>
+
+  <!-- start header -->
+  <div id="header">
+    <div id="logo">
+      <h1><a href="#"><span></span></a></h1>
+      <p></p>
+    </div>
+  </div>
+  <!-- end header -->
+  <!-- start page -->
+  <div id="page">
+    <div id="sidebar1" class="sidebar">
+      <ul>
+        <li> <br />
+		  <img src="images/Phoenix-Logo.jpg" width="220" height="218" alt="" />
+          <!--<ul>
+            <li>&nbsp;</li>
+          </ul>-->
+        </li>
+      </ul>
+    </div>
+    <!-- start content -->
+    <div id="content">
+      <div class="post">
+        <h1 class="title"><a href="#">Contact Us</a></h1>
+        <p class="byline">If you would like more infomation</p>
+        <div class="entry">
+        <p>If you're having difficulties logging in or you may have forgotten your password, please email the VESA Database Administrator.</p>
+		
+		<br /><br /><p>
+		<I><B>HELP:</B> The password you entered must be case-sensitive. This means, for example, that mypwd (all lowercase) is different from MyPwD (mixed case) or MYPWD (all uppercase). If you do not remember the exact way in which you specified your password, we can email you your password. Please email the VESA Database Administrator.</I>   
+		</p>  
+        </div>
+      </div>
+    </div>
+    <!-- end content -->
+    <div style="clear: both;">&nbsp;</div>
+  </div>
+  <!-- end page -->
+</div>
+<div id="footer">
+  <p class="copyright">&copy;&nbsp;&nbsp;2008 -  <%=Year(Date)%> All Rights Reserved &nbsp;&bull;&nbsp; Design and Developed by <a href="http://www.cwaustral.com.au">Countrywide Austral Pty Ltd</a>.</p>
+</div>
+</body>
+</html>
